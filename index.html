@@ -163,6 +163,8 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
 }
 .body-text { font-size: 14px; font-weight: 300; color: var(--ink-mid); line-height: 1.8; }
 .body-text strong { font-weight: 500; color: var(--ink); }
+.block-text strong { font-weight: 600; color: var(--wine); }
+.highlight-quote strong { font-weight: 700; }
 .highlight-quote {
   font-family: 'Cormorant Garamond', serif;
   font-size: 22px;
@@ -194,6 +196,7 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
   line-height: 1.7; padding-left: 20px; position: relative; margin-bottom: 5px;
 }
 .result-list li::before { content: "—"; position: absolute; left: 0; color: var(--wine); }
+.result-list li strong { font-weight: 600; color: var(--wine); }
 
 .img-wrap { display: flex; flex-direction: column; gap: 6px; }
 .img-wrap img { width: 100%; border-radius: 5px; border: 1px solid var(--beige-dark); }
@@ -414,9 +417,9 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
   </div>
 
   <div class="rule-wine"></div>
-  <p class="body-text" style="max-width:600px;">Tenho mais de 10 anos de experiência em marketing digital, CRM e operações criativas. Além de assumir a Liderança Técnica de time com mais de 5 redatoras, atuei no mapeamento e construção de processos, frameworks, bases de conhecimento e automações que ajudaram times de conteúdo a produzir com mais qualidade, consistência e eficiência.</p>
+  <p class="body-text" style="max-width:600px;">Tenho mais de <strong>10 anos de experiência</strong> em marketing digital, CRM e operações criativas. Além de assumir a <strong>Liderança Técnica</strong> de time com mais de 5 redatoras, atuei no mapeamento e construção de <strong>processos, frameworks, bases de conhecimento e automações</strong> que ajudaram times de conteúdo a produzir com mais qualidade, consistência e eficiência.</p>
   <div class="highlight-quote">Conectando conteúdo, operações e tecnologia para resolver desafios de escala, governança editorial e produtividade.</div>
-  <p class="body-text" style="max-width:600px;">Este portfólio reúne três projetos mais significativos da minha atuação recente em Content Operations e CRM — cada um com foco em transformar desafios operacionais concretos em soluções estruturadas e replicáveis.</p>
+  <p class="body-text" style="max-width:600px;">Este portfólio reúne três projetos significativos da minha atuação recente em Content Operations e CRM para Natura e Avon — cada um com foco em transformar desafios operacionais concretos em soluções estruturadas e replicáveis.</p>
 </section>
 
 <!-- CASE 01 -->
@@ -426,11 +429,11 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
   <div class="rule-wine"></div>
   <div class="block">
     <div class="block-label">Problema</div>
-    <div class="block-text">O processo de criação de conteúdos dependia fortemente de análises e consultas manuais a diversos documentos de apoio, tornando a redação sujeita a mais erros e as revisões mais sujeitas a interpretações diferentes entre clientes, redatores e revisores. O crescimento da operação exigia maior consistência editorial e mais velocidade nas aprovações.</div>
+    <div class="block-text">O processo de criação de conteúdos dependia fortemente de <strong>análises e consultas manuais</strong> a diversos documentos de apoio, tornando a etapa de redação mais onerosa e sujeita a erros. O crescimento da operação exigia maior <strong>consistência editorial</strong> e mais velocidade nas aprovações.</div>
   </div>
   <div class="block">
     <div class="block-label">Solução</div>
-    <div class="block-text">Estruturei um sistema de checagem dentro da ferramenta de redação, baseado em critérios padronizados de qualidade textual, transformando regras de marca e negócio em um fluxo de validação replicável e automatizado. O projeto consolidou boas práticas de revisão, reduziu subjetividades e tornou o processo mais previsível para redatores, revisores e gestores.</div>
+    <div class="block-text">Estruturei um <strong>sistema de checagem</strong> dentro da ferramenta de redação com mensagens automatizadas de Correção, Atenção e Padronização, baseado em critérios padronizados de qualidade textual, transformando regras de marca, negócio e ferramenta em um <strong>fluxo de validação replicável e automatizado</strong>. O projeto consolidou boas práticas de revisão, reduziu subjetividades e tornou o processo mais previsível para as equipes de redação, revisão e gestores.</div>
   </div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:28px 0;">
     <div class="img-wrap">
@@ -460,15 +463,15 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
   <div class="rule-wine"></div>
   <div class="block">
     <div class="block-label">Contexto</div>
-    <div class="block-text">Uma operação de CRM produzia campanhas segmentadas para diferentes públicos, regiões e perfis de Consultoras de Beleza. Cada campanha podia gerar dezenas de variações, exigindo a produção e revisão de centenas de registros em Airtable.</div>
+    <div class="block-text">Uma operação de CRM produzia <strong>campanhas segmentadas</strong> para diferentes públicos, regiões e perfis de Consultoras de Beleza. Cada campanha podia gerar dezenas de variações, exigindo a produção e revisão de <strong>centenas de registros em Airtable</strong>.</div>
   </div>
   <div class="block">
     <div class="block-label">Desafio</div>
-    <div class="block-text">Grande parte das informações era idêntica entre as diferentes versões da mesma campanha, mas precisava ser preenchida manualmente em cada linha da base. Isso gerava alto volume operacional, retrabalho constante, maior risco de inconsistências e tempo elevado para redação, revisão e aprovação.</div>
+    <div class="block-text">Grande parte das informações era idêntica entre as diferentes versões da mesma campanha, mas precisava ser preenchida manualmente em cada linha da base. Isso gerava <strong>alto volume operacional, retrabalho constante</strong>, maior risco de inconsistências e tempo elevado para redação, revisão e aprovação.</div>
   </div>
   <div class="block">
     <div class="block-label">Solução</div>
-    <div class="block-text">Redesenhei a estrutura da operação no Airtable criando uma <strong>camada intermediária</strong> para centralizar conteúdos compartilhados entre todas as versões de uma campanha. Informações repetidas passaram a ser preenchidas apenas uma vez e distribuídas automaticamente. Campos manuais foram substituídos por fórmulas e regras automatizadas, simplificando o processo para Redação e Revisão.</div>
+    <div class="block-text">Redesenhei a <strong>arquitetura da operação</strong> no Airtable criando uma <strong>camada intermediária</strong> para centralizar conteúdos compartilhados entre todas as versões de uma campanha. Informações repetidas passaram a ser preenchidas apenas uma vez e distribuídas automaticamente. Campos manuais foram substituídos por <strong>fórmulas e regras automatizadas</strong>, simplificando o processo para Redação e Revisão.</div>
   </div>
   <div style="display:flex;flex-direction:column;gap:14px;margin:28px 0;">
     <div class="img-wrap">
@@ -499,11 +502,11 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
   <div class="rule-wine"></div>
   <div class="block">
     <div class="block-label">Problema</div>
-    <div class="block-text">O aumento do volume de entregas gerava desafios de padronização, reaproveitamento de conhecimento e velocidade de produção. Informações e referências estavam distribuídas entre documentos, planilhas e equipes — sem uma fonte central de consulta.</div>
+    <div class="block-text">O aumento do volume de entregas gerava desafios de <strong>padronização, reaproveitamento de conhecimento</strong> e velocidade de produção. Informações e referências estavam distribuídas entre documentos, planilhas e equipes — sem uma fonte central de consulta.</div>
   </div>
   <div class="block">
     <div class="block-label">Solução</div>
-    <div class="block-text">Desenvolvi uma <strong>biblioteca centralizada de templates e estruturas de conteúdo</strong>, organizando modelos reutilizáveis, padrões editoriais e referências operacionais em uma arquitetura única. A iniciativa facilitou a produção de novos materiais e fortaleceu a governança da operação.</div>
+    <div class="block-text">Desenvolvi um <strong>sistema modular de conhecimento</strong> organizado em três níveis: <strong>Átomos de Conteúdo</strong> (componentes reutilizáveis), <strong>Blocos de Conteúdo</strong> (combinações funcionais desses componentes) e <strong>Templates</strong> (estruturas completas para produção), organizando modelos reutilizáveis com referências operacionais completas em uma arquitetura única. A iniciativa facilitou a produção de novos materiais com alto volume e complexidade, facilitou o onboarding de novas redatoras e fortaleceu a <strong>governança da operação</strong>.</div>
   </div>
   <div style="display:flex;flex-direction:column;gap:14px;margin:28px 0;">
     <div class="img-wrap">
@@ -587,7 +590,24 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
 <!-- CONTATO -->
 <section class="section" id="contato">
   <span class="eyebrow">Vamos conversar?</span>
-  <div class="highlight-quote" style="margin-top:8px;">Estou disponível para novas oportunidades em Operações de Conteúdo, Knowledge Management e Content Systems.</div>
+  <div class="rule-wine"></div>
+
+  <div class="block">
+    <div class="block-text">Estou disponível para novas oportunidades em <strong>Operações de Conteúdo, Knowledge Management, Content Systems</strong> e similares.</div>
+  </div>
+  <div class="block">
+    <div class="block-text" style="margin-bottom:10px;">Meu foco hoje está em:</div>
+    <ul class="result-list">
+      <li><strong>Eficiência operacional</strong></li>
+      <li><strong>Redução de retrabalho</strong></li>
+      <li><strong>Organização e integração de conhecimento</strong></li>
+      <li><strong>Ganhos perceptíveis de qualidade das entregas</strong></li>
+      <li><strong>Aplicação de IA generativa</strong> para ideação e versionamento de conteúdos, soluções e melhoria de processos</li>
+    </ul>
+  </div>
+  <div class="block">
+    <div class="block-text">Me conte seus desafios e ficarei feliz em contribuir com <strong>soluções de alto impacto</strong> :)</div>
+  </div>
 
   <div class="contact-buttons">
     <a class="contact-btn" href="https://linkedin.com/in/junior-sergio" target="_blank">
