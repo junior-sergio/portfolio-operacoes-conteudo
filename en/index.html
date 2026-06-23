@@ -427,6 +427,7 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
     <a class="sb-link" href="#case01" onclick="setActive(this)"><span class="sb-dot"></span>01 — Writing QA System</a>
     <a class="sb-link" href="#case02" onclick="setActive(this)"><span class="sb-dot"></span>02 — Content Automation at Scale</a>
     <a class="sb-link" href="#case03" onclick="setActive(this)"><span class="sb-dot"></span>03 — Template Library</a>
+    <a class="sb-link" href="#case04" onclick="setActive(this)"><span class="sb-dot"></span>04 — Job Application Workflow</a>
     <div class="sb-section">Profile</div>
     <a class="sb-link" href="#competencias" onclick="setActive(this)"><span class="sb-dot"></span>Skills and Tools</a>
     <a class="sb-link" href="#contato" onclick="setActive(this)"><span class="sb-dot"></span>Contact</a>
@@ -593,6 +594,58 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
       <li>Improved knowledge sharing across teams</li>
       <li>Easier onboarding for new writers</li>
     </ul>
+  </div>
+</section>
+
+<!-- CASE 04 -->
+<section class="section" id="case04">
+  <span class="eyebrow">Case 04</span>
+  <h2 class="section-title">AI-Assisted Job Application Workflow</h2>
+  <div class="rule-wine"></div>
+  <div class="block">
+    <h3 class="block-label">Challenge</h3>
+    <div class="block-text">While exploring new career opportunities, I noticed that tailoring resumes, professional summaries, and outreach messages for each role required a significant amount of time.
+
+Beyond the operational effort, the process involved reviewing lengthy job descriptions, identifying relevant skills, and adjusting professional positioning while maintaining consistency across multiple applications.
+
+The challenge was to transform this process into a <strong>structured workflow</strong> capable of accelerating <strong>application personalization</strong> without compromising the quality of the generated content.</div>
+  </div>
+
+  <div class="block">
+    <h3 class="block-label">Solution</h3>
+    <div class="block-text">I developed a system powered by <strong>Airtable</strong>, <strong>Fillout</strong>, <strong>Make</strong>, and <strong>OpenAI</strong> to automate the creation of job application assets.
+
+The solution was built around two primary forms: one dedicated to professional profile information and another focused on job opportunities. The collected data was consolidated into a <strong>central knowledge base</strong>, providing context for the automatic generation of personalized content.
+
+Based on the job description and profile data, the system generated tailored versions of professional summaries, career objectives, experience highlights, recruiter outreach suggestions, and other assets commonly used throughout the hiring process.
+
+The generated outputs were automatically delivered by email, allowing materials to be reviewed and used immediately.</div>
+  </div>
+
+  <div class="block">
+    <h3 class="block-label">Solution Architecture</h3>
+    <div class="block-text">
+      • <strong>Airtable</strong> as the operational database and system foundation<br>
+      • <strong>Fillout</strong> for collecting profile and job opportunity information<br>
+      • <strong>Make</strong> for workflow orchestration<br>
+      • <strong>OpenAI</strong> for generating personalized content assets<br>
+      • <strong>Gmail</strong> for automated delivery of generated outputs
+    </div>
+  </div>
+
+  <div class="block">
+    <h3 class="block-label">Impact</h3>
+    <ul class="result-list">
+      <li>Significant reduction in the time required to personalize job applications</li>
+      <li>Centralization of professional information into a single <strong>source of truth</strong></li>
+      <li>Greater consistency across resumes, outreach messages, and supporting materials</li>
+      <li>Reusable framework adaptable to different roles and seniority levels</li>
+      <li>Practical application of <strong>Generative AI</strong> within a complete <strong>operational workflow</strong></li>
+    </ul>
+  </div>
+
+  <div class="block">
+    <div class="block-text">The project also served as a hands-on environment for testing applications of <strong>Generative AI</strong>, <strong>Workflow Automation</strong>, and <strong>Information Architecture</strong> in a real-world use case.</div>
   </div>
 </section>
 
