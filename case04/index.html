@@ -1,28 +1,131 @@
 <body>
 
-<header>
+<header class="topbar">
+  <div class="topbar-content">
+    <a href="../" class="back-link">← Voltar ao Portfólio</a>
+
+    <div class="hero">
+      <div class="hero-kicker">CASE 04</div>
+      <h1>Sistema de Candidaturas Assistidas por IA</h1>
+      <p>Perfil + Vaga → Contexto Estruturado → Assets Personalizados</p>
+    </div>
+  </div>
 </header>
 
 <main>
 
-<section id="home">
+<section id="home" class="step-section">
+  <div class="step-header">
+    <span class="step-number">01</span>
+    <h2>HOME</h2>
+  </div>
+
+  <div class="image-single">
+    <img src="img/home.webp" alt="Home do sistema">
+  </div>
 </section>
 
-<section id="perfil">
+<section id="perfil" class="step-section">
+  <div class="step-header">
+    <span class="step-number">02</span>
+    <h2>PERFIL</h2>
+  </div>
+
+  <div class="image-grid">
+    <img src="img/perfil1.webp" alt="Formulário de perfil">
+    <img src="img/perfil2.webp" alt="Perfil criado">
+  </div>
 </section>
 
-<section id="vaga">
+<section id="vaga" class="step-section">
+  <div class="step-header">
+    <span class="step-number">03</span>
+    <h2>VAGA</h2>
+  </div>
+
+  <div class="image-grid">
+    <img src="img/vaga1.webp" alt="Cadastro de vaga">
+    <img src="img/vaga2.webp" alt="Vaga enviada">
+  </div>
 </section>
 
-<section id="workflow">
+<section id="workflow" class="step-section">
+  <div class="step-header">
+    <span class="step-number">04</span>
+    <h2>WORKFLOW</h2>
+  </div>
+
+  <div class="workflow-box">
+
+    <div class="workflow-inputs">
+      <div class="workflow-card">
+        <strong>PERFIL</strong>
+      </div>
+
+      <div class="workflow-plus">+</div>
+
+      <div class="workflow-card">
+        <strong>VAGA</strong>
+      </div>
+    </div>
+
+    <div class="workflow-arrow">↓</div>
+
+    <div class="workflow-stack">
+      <div>Airtable</div>
+      <div>↓</div>
+      <div>Make</div>
+      <div>↓</div>
+      <div>OpenAI</div>
+      <div>↓</div>
+      <div>Gmail</div>
+    </div>
+
+  </div>
 </section>
 
-<section id="assets">
+<section id="assets" class="step-section">
+  <div class="step-header">
+    <span class="step-number">05</span>
+    <h2>ASSETS GERADOS</h2>
+  </div>
+
+  <div class="email-showcase">
+
+    <img
+      src="img/email-stack.webp"
+      alt="Assets gerados"
+      class="email-stack-image"
+    >
+
+  </div>
+
+  <div class="assets-caption">
+    <p>Conteúdo personalizado:</p>
+
+    <ul>
+      <li>CV adaptado</li>
+      <li>Resumo profissional</li>
+      <li>Mensagens para recrutadores</li>
+    </ul>
+  </div>
+
 </section>
 
 </main>
 
-<footer>
+<footer class="progress-nav">
+
+  <a href="#home" class="nav-item active">HOME</a>
+
+  <a href="#perfil" class="nav-item">PERFIL</a>
+
+  <a href="#vaga" class="nav-item">VAGA</a>
+
+  <a href="#workflow" class="nav-item">WORKFLOW</a>
+
+  <a href="#assets" class="nav-item">ASSETS</a>
+
 </footer>
 
 <script src="script.js"></script>
