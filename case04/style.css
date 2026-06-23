@@ -105,6 +105,17 @@ font-weight:700;
   font-weight:600;
 
 }
+.desktop-only{
+
+display:block;
+
+}
+
+.mobile-only{
+
+display:none;
+
+}
 .hero h1{
 
 font-family:'Cormorant Garamond',serif;
@@ -507,7 +518,17 @@ MOBILE
 }
 
 @media (max-width: 600px){
+.desktop-only{
 
+display:none;
+
+}
+
+.mobile-only{
+
+display:block;
+
+}
 .topbar{
 
 ```
