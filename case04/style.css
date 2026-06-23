@@ -568,11 +568,11 @@ font-size:2.3rem;
 
 @media (max-width:768px){
 
-  .lightbox{
-
-    overflow:auto;
+  .lightbox.active{
 
     display:block;
+
+    overflow:auto;
 
     padding:80px 20px;
 
