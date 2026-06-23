@@ -447,9 +447,19 @@ color:var(--wine);
 }
 .nav-arrow{
 
-  color:var(--muted);
+display:flex;
 
-  opacity:.45;
+align-items:center;
+
+justify-content:center;
+
+color:var(--beige-dark);
+
+font-size:1rem;
+
+margin:0 -8px;
+
+transform:translateY(-1px);
 
 }
 /* =========================
