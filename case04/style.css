@@ -150,6 +150,15 @@ max-width:700px;
   line-height:1.8;
 
 }
+strong{
+
+color:var(--wine);
+
+font-weight:700;
+
+position:relative;
+
+}
 /* =========================
 SECTIONS
 ========================= */
