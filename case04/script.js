@@ -11,7 +11,6 @@ document.querySelectorAll(".zoomable").forEach(img => {
   img.addEventListener("click", () => {
 
     lightboxImage.src = img.src;
-
     lightbox.classList.add("active");
 
   });
@@ -29,28 +28,20 @@ lightbox.addEventListener("click", (e) => {
   if (e.target === lightbox) {
 
     lightbox.classList.remove("active");
-document.addEventListener("keydown", function(event) {
+
+  }
+
+});
+
+document.addEventListener("keydown", (event) => {
 
   if (
     event.key === "Escape" &&
     lightbox.classList.contains("active")
   ) {
+
     lightbox.classList.remove("active");
+
   }
 
 });
-  }
-
-});
-
-/* =========================
-   FOOTER NAV
-========================= */
-
-// próximo código aqui
-
-/* =========================
-   BACK TO TOP
-========================= */
-
-// próximo código aqui
