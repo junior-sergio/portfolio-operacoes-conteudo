@@ -1,1 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
+:root {
+
+--beige: #F2EDE4;
+--beige-dark: #D5C9B4;
+
+--wine: #6B1E2E;
+--wine-light: #8B2E42;
+
+--ink: #1E1A17;
+--muted: #7A6F65;
+
+--max-width: 1200px;
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:var(--beige);
+color:var(--ink);
+
+font-family:'Inter',sans-serif;
+
+line-height:1.6;
+
+}
+
+/* =========================
+HEADER
+========================= */
+
+.topbar{
+
+padding:80px 32px 40px;
+
+border-bottom:1px solid var(--beige-dark);
+
+}
+
+.topbar-content{
+
+max-width:var(--max-width);
+margin:0 auto;
+
+}
+
+.back-link{
+
+display:inline-block;
+
+margin-bottom:32px;
+
+color:var(--wine);
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+.back-link:hover{
+
+opacity:.7;
+
+}
+
+.hero-kicker{
+
+color:var(--wine);
+
+font-size:.85rem;
+
+letter-spacing:.18em;
+
+text-transform:uppercase;
+
+margin-bottom:12px;
+
+font-weight:700;
+
+}
+
+.hero h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:4rem;
+
+line-height:0.95;
+
+color:var(--ink);
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:1.1rem;
+
+color:var(--muted);
+
+max-width:700px;
+
+}
+
+/* =========================
+SECTIONS
+========================= */
+
+.step-section{
+
+max-width:var(--max-width);
+
+margin:0 auto;
+
+padding:100px 32px;
+
+}
+
+.step-header{
+
+display:flex;
+
+align-items:center;
+
+gap:16px;
+
+margin-bottom:48px;
+
+}
+
+.step-number{
+
+color:var(--wine);
+
+font-size:.9rem;
+
+font-weight:700;
+
+letter-spacing:.15em;
+
+}
+
+.step-header h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:3rem;
+
+color:var(--wine);
+
+line-height:1;
+
+}
+
+/* =========================
+IMAGES
+========================= */
+
+.image-single img,
+
+.image-grid img,
+
+.email-stack-image{
+
+width:100%;
+
+display:block;
+
+border-radius:12px;
+
+border:1px solid rgba(107,30,46,.15);
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.image-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:24px;
+
+}
+
+/* =========================
+WORKFLOW
+========================= */
+
+.workflow-box{
+
+border:1px solid rgba(107,30,46,.15);
+
+border-radius:16px;
+
+background:#fffdf9;
+
+padding:48px;
+
+}
+
+.workflow-inputs{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:24px;
+
+}
+
+.workflow-card{
+
+padding:24px 40px;
+
+border:1px solid var(--beige-dark);
+
+border-radius:12px;
+
+background:white;
+
+min-width:180px;
+
+text-align:center;
+
+}
+
+.workflow-plus{
+
+font-size:2rem;
+
+color:var(--wine);
+
+}
+
+.workflow-arrow{
+
+text-align:center;
+
+font-size:2rem;
+
+color:var(--wine);
+
+margin:32px 0;
+
+}
+
+.workflow-stack{
+
+text-align:center;
+
+font-size:1.1rem;
+
+}
+
+.workflow-stack div{
+
+margin:10px 0;
+
+}
+
+/* =========================
+ASSETS
+========================= */
+
+.email-showcase{
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.email-stack-image{
+
+max-width:1100px;
+
+}
+
+.assets-caption{
+
+margin-top:36px;
+
+text-align:center;
+
+}
+
+.assets-caption p{
+
+color:var(--wine);
+
+font-weight:700;
+
+margin-bottom:12px;
+
+}
+
+.assets-caption ul{
+
+list-style:none;
+
+}
+
+.assets-caption li{
+
+margin:6px 0;
+
+}
+
+/* =========================
+FOOTER FIXO
+========================= */
+
+.progress-nav{
+
+position:fixed;
+
+bottom:0;
+
+left:0;
+
+right:0;
+
+z-index:999;
+
+display:flex;
+
+justify-content:center;
+
+gap:32px;
+
+padding:18px;
+
+background:rgba(242,237,228,.95);
+
+backdrop-filter:blur(12px);
+
+border-top:1px solid var(--beige-dark);
+
+}
+
+.nav-item{
+
+text-decoration:none;
+
+color:var(--muted);
+
+font-size:.85rem;
+
+font-weight:700;
+
+letter-spacing:.08em;
+
+transition:.2s;
+
+}
+
+.nav-item:hover{
+
+color:var(--wine);
+
+}
+
+.nav-item.active{
+
+color:var(--wine);
+
+}
+
+/* =========================
+MOBILE
+========================= */
+
+@media (max-width: 900px){
+
+.hero h1{
+
+```
+font-size:2.8rem;
+```
+
+}
+
+.step-header h2{
+
+```
+font-size:2.2rem;
+```
+
+}
+
+.image-grid{
+
+```
+grid-template-columns:1fr;
+```
+
+}
+
+.workflow-inputs{
+
+```
+flex-direction:column;
+```
+
+}
+
+.progress-nav{
+
+```
+gap:12px;
+
+flex-wrap:wrap;
+```
+
+}
+
+}
+
+@media (max-width: 600px){
+
+.topbar{
+
+```
+padding:48px 24px 32px;
+```
+
+}
+
+.step-section{
+
+```
+padding:72px 24px;
+```
+
+}
+
+.hero h1{
+
+```
+font-size:2.3rem;
+```
+
+}
+
+}
