@@ -427,6 +427,7 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
     <a class="sb-link" href="#case01" onclick="setActive(this)"><span class="sb-dot"></span>01 — Checagem de Redação</a>
     <a class="sb-link" href="#case02" onclick="setActive(this)"><span class="sb-dot"></span>02 — Automação em Escala</a>
     <a class="sb-link" href="#case03" onclick="setActive(this)"><span class="sb-dot"></span>03 — Biblioteca de Templates</a>
+    <a class="sb-link" href="#case04" onclick="setActive(this)"><span class="sb-dot"></span>04 — Candidaturas Assistidas por IA</a>
     <div class="sb-section">Perfil</div>
     <a class="sb-link" href="#competencias" onclick="setActive(this)"><span class="sb-dot"></span>Competências e Ferramentas</a>
     <a class="sb-link" href="#contato" onclick="setActive(this)"><span class="sb-dot"></span>Contato</a>
@@ -593,6 +594,48 @@ body { background: var(--beige); font-family: 'Inter', system-ui, sans-serif; co
       <li>Melhor compartilhamento de conhecimento entre equipes</li>
       <li>Onboarding facilitado para novas redatoras no time</li>
     </ul>
+  </div>
+</section>
+
+<!-- CASE 04 -->
+<section class="section" id="case04">
+  <span class="eyebrow">Case 04</span>
+  <h2 class="section-title">Sistema de Candidaturas Assistidas por IA</h2>
+  <div class="rule-wine"></div>
+  <div class="block">
+    <h3 class="block-label">Desafio</h3>
+    <div class="block-text">Durante a busca por novas oportunidades, percebi que adaptar currículos, resumos profissionais e mensagens de candidatura para cada vaga consumia um tempo significativo.
+
+Além do esforço operacional, o processo exigia analisar descrições extensas, identificar competências relevantes e ajustar o posicionamento profissional sem perder consistência entre diferentes aplicações.
+
+O desafio era criar uma forma de transformar esse processo em um <strong>fluxo estruturado</strong>, capaz de acelerar a <strong>personalização de candidaturas</strong> sem comprometer a qualidade das informações geradas.</div>
+  </div>
+  <div class="block">
+    <h3 class="block-label">Solução</h3>
+    <div class="block-text">Desenvolvi um sistema baseado em <strong>Airtable</strong>, <strong>Fillout</strong>, <strong>Make</strong> e <strong>OpenAI</strong> para automatizar a geração de materiais de candidatura.
+
+A solução foi estruturada em dois formulários principais: um dedicado ao perfil profissional e outro às vagas de interesse. As informações coletadas eram consolidadas em uma <strong>base central</strong>, que servia como contexto para a geração automática de conteúdos personalizados.
+
+A partir da descrição da vaga e das informações do perfil, o sistema gerava versões adaptadas de resumo profissional, objetivo de carreira, destaques de experiência, sugestões de abordagem para recrutadores e outros ativos utilizados em processos seletivos.
+
+Os resultados eram enviados automaticamente por e-mail, permitindo que o material fosse revisado e utilizado imediatamente.</div>
+  </div>
+  <div class="block">
+    <h3 class="block-label">Arquitetura da solução</h3>
+    <div class="block-text">• <strong>Airtable</strong> como base de dados e estrutura operacional<br>• <strong>Fillout</strong> para captura de informações de perfil e vagas<br>• <strong>Make</strong> para orquestração dos fluxos<br>• <strong>OpenAI</strong> para geração dos conteúdos personalizados<br>• <strong>Gmail</strong> para distribuição automática dos resultados</div>
+  </div>
+  <div class="block">
+    <h3 class="block-label">Impacto</h3>
+    <ul class="result-list">
+      <li>Redução significativa do tempo necessário para personalizar candidaturas</li>
+      <li>Centralização das informações profissionais em uma única <strong>fonte de verdade</strong></li>
+      <li>Maior consistência entre currículos, mensagens e materiais enviados</li>
+      <li>Estrutura reutilizável para diferentes tipos de vagas e níveis de senioridade</li>
+      <li>Aplicação prática de <strong>IA Generativa</strong> em um <strong>workflow operacional completo</strong></li>
+    </ul>
+  </div>
+  <div class="block">
+    <div class="block-text">O projeto também serviu como laboratório para testar aplicações de <strong>IA Generativa</strong>, <strong>Automação</strong> e <strong>Arquitetura da Informação</strong> em um contexto real de uso.</div>
   </div>
 </section>
 
