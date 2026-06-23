@@ -178,17 +178,15 @@ IMAGES
 
 .image-grid img,
 
-.email-stack-image{
+.email-stack{
 
-width:100%;
+  max-width:1200px;
 
-display:block;
+  width:100%;
 
-border-radius:12px;
+  margin:0 auto;
 
-border:1px solid rgba(107,30,46,.15);
-
-box-shadow:0 10px 30px rgba(0,0,0,.08);
+  display:block;
 
 }
 
