@@ -399,7 +399,65 @@ font-size:1.1rem;
 margin:4px 0;
 
 }
+.workflow-tool{
 
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+gap:12px;
+
+margin:18px 0;
+
+}
+
+.workflow-tool img{
+
+width:56px;
+
+height:56px;
+
+object-fit:contain;
+
+}
+
+.workflow-tool span{
+
+font-size:1rem;
+
+font-weight:600;
+
+}
+
+.workflow-arrow-small{
+
+font-size:1.5rem;
+
+color:var(--wine);
+
+margin:8px 0;
+
+}
+
+.workflow-result{
+
+margin-top:24px;
+
+padding:18px 28px;
+
+border-radius:12px;
+
+background:white;
+
+border:1px solid rgba(107,30,46,.15);
+
+font-weight:700;
+
+display:inline-block;
+
+}
 /* =========================
 ASSETS
 ========================= */
