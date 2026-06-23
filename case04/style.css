@@ -534,6 +534,8 @@ font-size:2.3rem;
 
   box-shadow:0 20px 60px rgba(0,0,0,.5);
 
+  object-fit:contain;
+
 }
 
 .lightbox-close{
@@ -551,5 +553,32 @@ font-size:2.3rem;
   cursor:pointer;
 
   line-height:1;
+
+}
+/* =========================
+   MOBILE LIGHTBOX
+========================= */
+
+@media (max-width:768px){
+
+  .lightbox{
+
+    overflow:auto;
+
+    align-items:flex-start;
+
+    padding-top:60px;
+
+  }
+
+  #lightbox-image{
+
+    width:220vw;
+
+    max-width:none;
+
+    max-height:none;
+
+  }
 
 }
