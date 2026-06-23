@@ -169,7 +169,12 @@ line-height:1;
 IMAGES
 ========================= */
 
-.image-single img,
+.image-single img{
+  width:100%;
+  max-width:100%;
+  height:auto;
+  display:block;
+},
 
 .image-grid img,
 
