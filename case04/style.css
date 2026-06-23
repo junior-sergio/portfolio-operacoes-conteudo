@@ -595,3 +595,52 @@ font-size:2.3rem;
   }
 
 }
+/* =========================
+   BACK TO TOP
+========================= */
+
+#backToTop{
+
+  position:fixed;
+
+  right:24px;
+
+  bottom:110px;
+
+  width:52px;
+
+  height:52px;
+
+  border:none;
+
+  border-radius:50%;
+
+  background:var(--wine);
+
+  color:white;
+
+  font-size:1.4rem;
+
+  cursor:pointer;
+
+  display:none;
+
+  z-index:999;
+
+  box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+  transition:.25s;
+
+}
+
+#backToTop:hover{
+
+  transform:translateY(-4px);
+
+}
+
+#backToTop.show{
+
+  display:block;
+
+}
