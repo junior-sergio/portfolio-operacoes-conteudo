@@ -2,31 +2,26 @@
    LIGHTBOX
 ========================= */
 
-const lightbox = document.getElementById("lightbox");
-const lightboxImage = document.getElementById("lightbox-image");
-const closeLightbox = document.querySelector(".lightbox-close");
+const lightbox =
+document.getElementById("lightbox");
 
-document.querySelectorAll(".zoomable").forEach(img => {
+const lightboxImage =
+document.getElementById("lightbox-image");
+
+const closeLightbox =
+document.querySelector(".lightbox-close");
+
+document
+.querySelectorAll(".zoomable")
+.forEach(img => {
 
   img.addEventListener("click", () => {
 
-  lightboxImage.src = img.src;
+    lightboxImage.src = img.src;
 
-  lightbox.classList.add("active");
+    lightbox.classList.add("active");
 
-  setTimeout(() => {
-
-    if(window.innerWidth <= 768){
-
-      lightbox.scrollLeft =
-        (lightbox.scrollWidth -
-         lightbox.clientWidth) / 2;
-
-    }
-
-  }, 50);
-
-});
+  });
 
 });
 
@@ -38,7 +33,7 @@ closeLightbox.addEventListener("click", () => {
 
 lightbox.addEventListener("click", (e) => {
 
-  if (e.target === lightbox) {
+  if(e.target === lightbox){
 
     lightbox.classList.remove("active");
 
@@ -46,12 +41,12 @@ lightbox.addEventListener("click", (e) => {
 
 });
 
-document.addEventListener("keydown", (event) => {
+document.addEventListener("keydown", (e) => {
 
-  if (
-    event.key === "Escape" &&
+  if(
+    e.key === "Escape" &&
     lightbox.classList.contains("active")
-  ) {
+  ){
 
     lightbox.classList.remove("active");
 
