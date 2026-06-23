@@ -16,5 +16,3 @@ document.getElementById("lightbox");
 /* =========================
    BACK TO TOP
 ========================= */
-
-// próximo código aqui
