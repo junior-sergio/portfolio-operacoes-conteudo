@@ -169,11 +169,13 @@ margin-bottom:48px;
 
 color:var(--wine);
 
-font-size:.9rem;
+font-size:1.1rem;
 
 font-weight:700;
 
-letter-spacing:.15em;
+letter-spacing:.12em;
+
+margin-right:8px;
 
 }
 
@@ -181,11 +183,13 @@ letter-spacing:.15em;
 
 font-family:'Cormorant Garamond',serif;
 
-font-size:3rem;
+font-size:2.7rem;
 
 color:var(--wine);
 
 line-height:1;
+
+font-weight:600;
 
 }
 
