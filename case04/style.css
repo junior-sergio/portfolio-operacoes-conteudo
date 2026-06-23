@@ -177,6 +177,29 @@ HEADER
 
 }
 /* =========================
+CASE LINK
+========================= */
+
+.case-link{
+
+color:var(--wine);
+
+font-weight:700;
+
+text-decoration:none;
+
+border-bottom:1px solid var(--wine);
+
+transition:.25s;
+
+}
+
+.case-link:hover{
+
+opacity:.7;
+
+}
+/* =========================
 SECTIONS
 ========================= */
 
