@@ -10,10 +10,21 @@ document.querySelectorAll(".zoomable").forEach(img => {
 
   img.addEventListener("click", () => {
 
-    lightboxImage.src = img.src;
-    lightbox.classList.add("active");
+  lightboxImage.src = img.src;
 
-  });
+  lightbox.classList.add("active");
+
+  setTimeout(() => {
+
+    if(window.innerWidth <= 768){
+
+      lightbox.scrollLeft =
+        (lightbox.scrollWidth -
+         lightbox.clientWidth) / 2;
+
+    }
+
+  }, 50);
 
 });
 
