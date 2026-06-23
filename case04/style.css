@@ -166,25 +166,22 @@ line-height:1;
 }
 
 /* =========================
-IMAGES
+   IMAGES
 ========================= */
 
-.image-single img{
-  width:100%;
-  max-width:100%;
-  height:auto;
-  display:block;
-},
-
-.image-grid img,
-
-.email-stack{
+.image-single{
 
   max-width:1200px;
 
+  margin:0 auto;
+
+}
+
+.image-single img{
+
   width:100%;
 
-  margin:0 auto;
+  height:auto;
 
   display:block;
 
@@ -192,11 +189,33 @@ IMAGES
 
 .image-grid{
 
-display:grid;
+  display:grid;
 
-grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 1fr;
 
-gap:24px;
+  gap:32px;
+
+}
+
+.image-grid img{
+
+  width:100%;
+
+  height:auto;
+
+  display:block;
+
+}
+
+.email-stack{
+
+  max-width:1100px;
+
+  width:100%;
+
+  margin:0 auto;
+
+  display:block;
 
 }
 
