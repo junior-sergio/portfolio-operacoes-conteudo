@@ -474,6 +474,8 @@ color:var(--wine);
 
   font-size:.95rem;
 
+  transform:translateY(-2px);
+
 }
 .nav-arrow{
 
