@@ -90,7 +90,21 @@ margin-bottom:12px;
 font-weight:700;
 
 }
+.portfolio-meta{
 
+  color:var(--wine);
+
+  font-size:.85rem;
+
+  letter-spacing:.15em;
+
+  text-transform:uppercase;
+
+  margin-bottom:16px;
+
+  font-weight:600;
+
+}
 .hero h1{
 
 font-family:'Cormorant Garamond',serif;
@@ -114,7 +128,17 @@ color:var(--muted);
 max-width:700px;
 
 }
+.intro-text{
 
+  max-width:850px;
+
+  margin-top:24px;
+
+  color:var(--muted);
+
+  line-height:1.8;
+
+}
 /* =========================
 SECTIONS
 ========================= */
@@ -417,7 +441,13 @@ color:var(--wine);
 color:var(--wine);
 
 }
+.nav-arrow{
 
+  color:var(--muted);
+
+  opacity:.45;
+
+}
 /* =========================
 MOBILE
 ========================= */
