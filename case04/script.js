@@ -28,6 +28,8 @@ document.querySelectorAll(".zoomable").forEach(img => {
 
 });
 
+});
+
 closeLightbox.addEventListener("click", () => {
 
   lightbox.classList.remove("active");
