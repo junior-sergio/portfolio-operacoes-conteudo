@@ -145,11 +145,7 @@ SECTIONS
 
 .step-section{
 
-max-width:var(--max-width);
-
-margin:0 auto;
-
-padding:100px 32px;
+padding:72px 32px;
 
 }
 
@@ -313,7 +309,7 @@ font-size:2rem;
 
 color:var(--wine);
 
-margin:32px 0;
+margin:18px 0;
 
 }
 
@@ -327,7 +323,7 @@ font-size:1.1rem;
 
 .workflow-stack div{
 
-margin:10px 0;
+margin:4px 0;
 
 }
 
@@ -517,7 +513,7 @@ padding:48px 24px 32px;
 .step-section{
 
 ```
-padding:72px 24px;
+padding:56px 24px;
 ```
 
 }
