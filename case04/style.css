@@ -280,6 +280,11 @@ line-height:1;
 font-weight:600;
 
 }
+.step-section:last-of-type{
+
+padding-bottom:180px;
+
+}
 
 /* =========================
    IMAGES
