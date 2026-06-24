@@ -203,6 +203,27 @@ width:0;
 
 }
 /* =========================
+CASE CTA
+========================= */
+
+.case-cta{
+
+margin:32px 0;
+
+padding:20px 24px;
+
+border-left:4px solid var(--wine);
+
+background:rgba(107,30,46,.05);
+
+font-weight:600;
+
+line-height:1.8;
+
+border-radius:0 8px 8px 0;
+
+}
+/* =========================
 SECTIONS
 ========================= */
 
