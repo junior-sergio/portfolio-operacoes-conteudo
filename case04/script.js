@@ -1,3 +1,18 @@
+document
+.querySelectorAll(".zoomable")
+.forEach(img => {
+
+  img.addEventListener("click", () => {
+
+    console.log("clicou");
+
+    lightboxImage.src = img.src;
+
+    lightbox.classList.add("active");
+
+  });
+
+});
 /* =========================
    LIGHTBOX
 ========================= */
