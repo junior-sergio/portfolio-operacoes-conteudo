@@ -162,21 +162,6 @@ position:relative;
 
 }
 /* =========================
-HEADER
-========================= */
-
-.topbar{
-
-...
-
-}
-
-.hero p{
-
-...
-
-}
-/* =========================
 CASE LINK
 ========================= */
 
@@ -223,14 +208,11 @@ SECTIONS
 
 .step-section{
 
-...
-/* =========================
-SECTIONS
-========================= */
+  max-width:var(--max-width);
 
-.step-section{
+  margin:0 auto;
 
-padding:72px 32px;
+  padding:72px 32px;
 
 }
 
@@ -549,31 +531,32 @@ FOOTER FIXO
 ========================= */
 
 .progress-nav{
-   
 
-position:fixed;
+  position:fixed;
 
-bottom:0;
+  bottom:0;
 
-left:0;
+  left:0;
 
-right:0;
+  right:0;
 
-z-index:999;
+  z-index:999;
 
-display:flex;
+  display:flex;
 
-justify-content:center;
+  justify-content:center;
 
-gap:32px;
+  align-items:center;
 
-padding:18px;
+  gap:16px;
 
-background:rgba(242,237,228,.95);
+  padding:18px;
 
-backdrop-filter:blur(12px);
+  background:rgba(242,237,228,.95);
 
-border-top:1px solid var(--beige-dark);
+  backdrop-filter:blur(12px);
+
+  border-top:1px solid var(--beige-dark);
 
 }
 .progress-nav a.active{
@@ -687,40 +670,26 @@ MOBILE
 }
 
 @media (max-width: 600px){
-.desktop-only{
 
-display:none;
+  .desktop-only{
+    display:none;
+  }
 
-}
+  .mobile-only{
+    display:block;
+  }
 
-.mobile-only{
+  .topbar{
+    padding:48px 24px 32px;
+  }
 
-display:block;
+  .step-section{
+    padding:42px 24px;
+  }
 
-}
-.topbar{
-
-```
-padding:48px 24px 32px;
-```
-
-}
-
-.step-section{
-
-```
-padding:42px 24px;
-```
-
-}
-
-.hero h1{
-
-```
-font-size:2.3rem;
-```
-
-}
+  .hero h1{
+    font-size:2.3rem;
+  }
 
 }
 /* =========================
