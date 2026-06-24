@@ -17,55 +17,59 @@ document
    LIGHTBOX
 ========================= */
 
-const lightbox =
-document.getElementById("lightbox");
+document.addEventListener("DOMContentLoaded", () => {
 
-const lightboxImage =
-document.getElementById("lightbox-image");
+  const lightbox =
+    document.getElementById("lightbox");
 
-const closeLightbox =
-document.querySelector(".lightbox-close");
+  const lightboxImage =
+    document.getElementById("lightbox-image");
 
-document
-.querySelectorAll(".zoomable")
-.forEach(img => {
+  const closeLightbox =
+    document.querySelector(".lightbox-close");
 
-  img.addEventListener("click", () => {
+  document
+    .querySelectorAll(".zoomable")
+    .forEach(img => {
 
-    lightboxImage.src = img.src;
+      img.addEventListener("click", () => {
 
-    lightbox.classList.add("active");
+        lightboxImage.src = img.src;
+
+        lightbox.classList.add("active");
+
+      });
+
+    });
+
+  closeLightbox.addEventListener("click", () => {
+
+    lightbox.classList.remove("active");
 
   });
 
-});
+  lightbox.addEventListener("click", (e) => {
 
-closeLightbox.addEventListener("click", () => {
+    if(e.target === lightbox){
 
-  lightbox.classList.remove("active");
+      lightbox.classList.remove("active");
 
-});
+    }
 
-lightbox.addEventListener("click", (e) => {
+  });
 
-  if(e.target === lightbox){
+  document.addEventListener("keydown", (e) => {
 
-    lightbox.classList.remove("active");
+    if(
+      e.key === "Escape" &&
+      lightbox.classList.contains("active")
+    ){
 
-  }
+      lightbox.classList.remove("active");
 
-});
+    }
 
-document.addEventListener("keydown", (e) => {
-
-  if(
-    e.key === "Escape" &&
-    lightbox.classList.contains("active")
-  ){
-
-    lightbox.classList.remove("active");
-
-  }
+  });
 
 });
 /* =========================
